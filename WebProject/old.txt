@@ -1,0 +1,19 @@
+<table align="center">
+		<tr>
+			<td><a href="lingkaran.php" title="Lingkaran"><img src="BangunDatar/lingkaran.jpg" width="145px" height="125px"></a></td>
+			<td><img src="BangunDatar/persegi.jpg" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/persegi-panjang.jpg" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/belah-ketupat.jpg" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/jajar-genjang.jpg" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/layang-layang.jpg" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/segitiga-sama-kaki.jpg" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/segitiga-siku-siku.jpg" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/trapesium-sembarang.jpg" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/" width="110px" height="90px"></td>
+			<td><img src="BangunDatar/" width="110px" height="90px"></td>
+		</tr>
+	</table>
