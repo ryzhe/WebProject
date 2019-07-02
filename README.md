@@ -5,7 +5,7 @@ This project is created for Calculate Area and Circumference of a few Two-Dimens
 # How to run this project in your device
 
 -> Pre-requirement :
-1. Intalled MySQL
+1. Installed MySQL
 2. Browser can run PHP file properly
 
 -> Installing :
