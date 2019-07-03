@@ -11,7 +11,6 @@
 </head>
 <body>
 	<form action="lingkaran.php" method="post">
-	<a href="main-menu.php"><img src="back.png" width="40px" height="40px"></a>
 	<a href="index.php"><img src="home.png" width="28px" height="31px"></a>
 	<p>We are using 3.142 as π (Phi)</p>
 	Radius &nbsp &nbsp &nbsp: <input type="text" name="rad" placeholder="Left it '0' if you doesn't have Radius" size="50px"><br><br>
