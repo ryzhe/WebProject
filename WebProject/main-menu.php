@@ -15,7 +15,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <script src="jquery.min.js"></script>
@@ -34,6 +34,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <span class="caret"></span></button>
         <ul class="dropdown-menu">
         <li><a href="lingkaran.php"> Lingkaran </a></li>
+        <li><a href="persegi.php"> Persegi </a></li>
+        <li><a href="persegi-panjang.php"> Persegi Panjang </a></li>
+        <li><a href="belah-ketupat.php"> Belah Ketupat </a></li>
+        <li><a href="segitiga-siku.php"> Segitiga Siku-siku</a></li>
+        <li><a href="segitiga-sisi.php"> Segitiga Sama Sisi</a></li>
+        <li><a href="trapesium.php"> Trapesium </a></li>
+        <li><a href="jajar-genjang.php"> Jajar Genjang </a></li>
+        <li><a href="layang-layang.php"> Layang-layang </a></li>
         </ul>
     </div> 
 </body>
