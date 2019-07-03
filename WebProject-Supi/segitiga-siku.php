@@ -11,7 +11,6 @@
 </head>
 <body>
 	<form action="segitiga-siku.php" method="post">
-	<a href="main-menu.php"><img src="back.png" width="40px" height="40px"></a>
 	<a href="index.php"><img src="home.png" width="28px" height="31px"></a>
 	<p>Caption later</p>
 	Side A : <input type="text" name="sideA"><br>
