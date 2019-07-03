@@ -15,6 +15,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <meta charset="UTF-8">
     <title>Welcome</title>
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <style type="text/css">
         body{ font: 14px sans-serif; text-align: center; }
     </style>
@@ -24,7 +27,22 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
     </div>
     <p>
-        <a href="main-menu.php" class="btn btn-primary">Go To Main Program</a>
+        <!-- <a href="main-menu.php" class="btn btn-primary">Go To Main Program</a> -->
+        <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose What You Want to Calculate
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+        <li><a href="lingkaran.php"> Lingkaran </a></li>
+        <li><a href="persegi.php"> Persegi </a></li>
+        <li><a href="persegi-panjang.php"> Persegi Panjang </a></li>
+        <li><a href="belah-ketupat.php"> Belah Ketupat </a></li>
+        <li><a href="segitiga-siku.php"> Segitiga Siku-siku</a></li>
+        <li><a href="segitiga-sisi.php"> Segitiga Sama Sisi</a></li>
+        <li><a href="trapesium.php"> Trapesium </a></li>
+        <li><a href="jajar-genjang.php"> Jajar Genjang </a></li>
+        <li><a href="layang-layang.php"> Layang-layang </a></li>
+        </ul>
+    </div> 
         <a href="reset-password.php" class="btn btn-warning">Change Your Password</a>
         <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
     </p>
