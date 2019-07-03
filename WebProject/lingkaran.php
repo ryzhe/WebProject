@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-    <title>Circle</title>
+    <title>Lingkaran</title>
     <link rel="stylesheet" href="bootstrap.css">
     <style type="text/css">
         body{ font: 14px sans-serif; }
